@@ -119,7 +119,7 @@ margin-top: 250px;
 }
 
 .write p {
-    width: 240px;
+    max-width: 240px;
     margin-top: 10px;
     font-size: 17px;
     line-height: 26px;
@@ -127,7 +127,7 @@ margin-top: 250px;
 }
 
 .work img {
-    width: 80px;
+    max-width: 80px;
     border-radius: 40px;
     padding: 20px;
     background-color: #674b7c;
@@ -135,7 +135,7 @@ margin-top: 250px;
 }
 
 .work p {
-    width: 240px;
+    max-width: 240px;
     margin-top: 10px;
     font-size: 17px;
     line-height: 26px;
@@ -160,7 +160,7 @@ margin-top: 250px;
 }
 
 .receive p {
-    width: 260px;
+    max-width: 260px;
     margin-top: 10px;
     font-size: 17px;
     line-height: 26px;
@@ -629,26 +629,23 @@ margin-top: 250px;
 
     .threechild {
         width: 100%;
-        flex-direction: column;
-        padding: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 20px;
+        margin-top: -20px;
     }
 
     .write p {
         width: 131px;
     }
 
-    .work {
-        margin-top: -247px;
-        margin-left: 185px;
-
-    }
-
+     
     .work p {
-        width: 168px;
+        width: 178px;
     }
 
     .receive {
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .why1 {
@@ -693,7 +690,7 @@ margin-top: 250px;
     .container {
         display: flex;
         flex-direction: column;
-        margin-top: 0px;
+        margin-top: 25px;
     }
 
     .onlineletter h3 {
